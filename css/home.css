@@ -1,0 +1,12 @@
+.navbar__logo{
+    width: 6rem;
+}
+
+.image{
+     border-radius: 999999px;
+     margin: auto;
+     display: flex;
+     justify-content: center;
+    padding: 2%;
+}
+
