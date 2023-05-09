@@ -7,12 +7,13 @@
     <title>Contact</title>
     <link rel="stylesheet" href="./css/contact.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body> 
+<body class="bg-secondary-subtle"> 
     <header>
 
         <nav id="navbar" class="d-flex justify-content-between p-2 bg-black">
-            <img src="./images/sd.png" alt="logo" class="navbar__logo">
+            <a href="./home.html"><img src="./images/sd.png" alt="logo" class="navbar__logo"></a>
             <ul id="nav__link" class="d-flex list-unstyled justify-content-center align-items-center m-0">
                 <li class="nav__links p-2"><a class="text-decoration-none text-white" href="./home.html">Home</a></li>
                 <li class="nav__links p-2"><a class="text-decoration-none text-white" href="./about.html">About</a></li>
@@ -23,29 +24,44 @@
             </ul>
         </nav>
     </header>
+    <h1 class="mt-5 text-center">CONTACT ME</h1>
     <main>
         <form action="https://formspree.io/f/mknayqlj" method="post">
-            <label>
-                Your Name:
-                <input type="name" name="name">
-            </label>
-            <label>
-                Your Surname:
-                <input type="Surname" name="Surname">
-            </label>
-            <label>
-                Your Email:
-                <input type="email" name="email">
-            </label>
-            <label>
-                Your message:
-                <textarea name="message"></textarea>
-            </label>
-            <label>
-            <button type="submit" style="height: 4rem;width: 4rem;">Send</button>
+            <div class="test">
+                <label>
+                    Your Name:
+                    <input type="name" name="name" class="w-100">
+                </label>
+                <label>
+                    Your Surname:
+                    <input type="Surname" name="Surname" class="w-100">
+                </label>
+                <label>
+                    Your Email:
+                    <input type="email" name="email" class="w-100">
+                </label>
+                <label>
+                    Your message:
+                    <textarea name="message" class="w-100"></textarea>
+                </label>
+                <label>
+                <button type="submit" style="height: 4rem;width: 8rem;">Send</button>
+            </div>
         </form>
     </main>
-
+    <footer class="bg-black">
+        <nav id="navbar" class="d-flex justify-content-between p-2 bg-black"></nav>
+        <div class="container">
+            <footer class="py-3 my-4">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#"><i class="fa-brands fa-facebook">facebook</i></a></li>
+          <li class="nav-item"><a href="#"><i class="fa-brands fa-twitter">Twitter</i></a></li>
+          <li class="nav-item"><a href="#"><i class="fa-brands fa-instagram">Instagram</i></a></li>
+        </ul>
+        <p class="text-center text-pink copyright">
+            Copyright &copy;Summer De Wet 2023</p>
+    
+     </footer>
     
 </body>
 </html>
