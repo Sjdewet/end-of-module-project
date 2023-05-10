@@ -10,16 +10,21 @@
 body{
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
-/* .img{
-    border-radius: 50%;
-    position: relative;
-    width: 15rem;
-    bottom: 5rem;
-    background-color: grey;
-} */
+
 
 .img{
     width: 18rem;
     border-radius: 50%;
     background-color: gray;
+}
+
+li > a:hover{
+    background-color: gray;
+    color: gray;
+    padding: 1rem;
+    border-radius: 99999px;
+}
+
+.nav-item{
+    padding: 10px;
 }

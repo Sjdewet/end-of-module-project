@@ -14,16 +14,43 @@ body{
     margin: 0 auto;
 }
 
-/* .img{
-    border-radius: 50%;
-    position: relative;
-    width: 15rem;
-    bottom: 5rem;
-    background-color: grey;
-} */
-
 .img{
     width: 18rem;
-
+    border: none;
     background-color: gray;
 }
+
+.imgB{
+    width: 10rem;
+    height: 10rem;
+    margin-top: 5rem;
+}
+
+.imgG{
+    height: 8.5rem;
+    margin-top: 6rem ;
+}
+.imgC{
+    width: 13rem;
+    height: 13rem;
+    margin-top: 2.5rem ;
+}
+.imgH{
+    width: 13rem;
+    height: 13rem;
+    margin-top: 2.5rem ;
+}
+
+.imgJ{
+    width: 13rem;
+    height: 13rem;
+    margin-top: 2.5rem ;
+}
+
+li > a:hover{
+    background-color: gray;
+    color: gray;
+    padding: 1rem;
+    border-radius: 99999px;
+}
+
