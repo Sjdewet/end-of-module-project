@@ -28,3 +28,8 @@ li > a:hover{
     padding: 10px;
 }
 
+@media (max-width:426px) {
+    .project-flex{
+        flex-direction: column;
+    }
+}

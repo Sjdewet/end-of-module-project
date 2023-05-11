@@ -54,3 +54,15 @@ li > a:hover{
     border-radius: 99999px;
 }
 
+@media (max-width: 426px) {
+    .edu-flex{
+        flex-direction: column;
+    }
+
+    .skills-flex{
+        flex-direction: column;
+        margin-inline: 7rem;
+        margin-bottom: 2rem;
+    }
+}
+
