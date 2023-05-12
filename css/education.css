@@ -27,12 +27,12 @@ body{
 }
 
 .imgG{
-    height: 8.5rem;
-    margin-top: 6rem ;
+    height: 5rem;
+    margin-top: 5rem ;
 }
 .imgC{
-    width: 13rem;
-    height: 13rem;
+    width: 15rem;
+    height: 12rem;
     margin-top: 2.5rem ;
 }
 .imgH{
@@ -49,12 +49,20 @@ body{
 
 li > a:hover{
     background-color: gray;
-    color: gray;
-    padding: 1rem;
+    padding:1rem;
     border-radius: 99999px;
 }
 
-@media (max-width: 426px) {
+#img{
+    width: 100%;
+}
+
+#purple {
+    background-color: purple;
+    color: white;
+}
+
+@media (max-width: 700px) {
     .edu-flex{
         flex-direction: column;
     }

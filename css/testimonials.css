@@ -18,19 +18,21 @@ body{
     background-color: gray;
 }
 
-/* li > a:hover{
+li > a:hover{
     background-color: gray;
-    color: gray;
     padding: 1rem;
     border-radius: 99999px;
-} */
+}
 /* 
 .nav-item{
     padding: 10px;
 } */
 
-@media (max-width: 426px) {
+@media (max-width: 700px) {
     .test-flex{
+        flex-direction: column;
+    }
+    .testimonial-col{
         flex-direction: column;
     }
 }

@@ -75,8 +75,7 @@ li > a:hover{
 
 li > a:hover{
   background-color: gray;
-  color: gray;
-  padding: .2rem;
+  padding: 1rem;
   border-radius: 99999px;
 }
 
@@ -85,7 +84,7 @@ li > a:hover{
   font: size 3rem;
   color:blue
 }
-@media (max-width: 426px){
+@media (max-width: 700px){
   .img-home{
     width: 30rem;
     margin-top: 2rem;

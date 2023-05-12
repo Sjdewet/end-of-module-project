@@ -29,13 +29,20 @@ h1{
     padding: 10px;
 }
 
-@media (max-width: 426px) {
+li > a:hover{
+    background-color: gray;
+    padding: 1rem;
+    border-radius: 99999px;
+}
+
+@media (max-width: 700px) {
     .main{
         flex-direction: column;
     }
 
     .summerj{
-        width: 15rem;
+        width: 20rem;
+        margin-inline: 12rem;
     }
 
     .text{
