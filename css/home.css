@@ -19,7 +19,6 @@ img {
 }
 li > a:hover{
     background-color: gray;
-    color: gray;
     padding: 1rem;
     border-radius: 99999px;
 }

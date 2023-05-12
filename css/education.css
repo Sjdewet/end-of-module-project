@@ -53,6 +53,10 @@ li > a:hover{
     border-radius: 99999px;
 }
 
+.nav-item{
+    padding: 10px;
+}
+
 #img{
     width: 100%;
 }
